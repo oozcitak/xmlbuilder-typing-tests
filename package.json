@@ -1,0 +1,31 @@
+{
+  "name": "xmlbuilder-typings-test",
+  "version": "0.0.1",
+  "keywords": [
+    "xml",
+    "xmlbuilder"
+  ],
+  "homepage": "http://github.com/oozcitak/xmlbuilder-js",
+  "description": "An XML builder for node.js",
+  "author": "Ozgur Ozcitak <oozcitak@gmail.com>",
+  "contributors": [],
+  "license": "MIT",
+  "main": "./lib/index",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "dependencies": {
+    "xmlbuilder": "file:../xmlbuilder-js",
+    "xpath": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "ts-mocha": "*",
+    "typescript": "*",
+    "@types/node": "*",
+    "@types/mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.ts"
+  }
+}
