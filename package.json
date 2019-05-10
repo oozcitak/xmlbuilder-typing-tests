@@ -26,6 +26,6 @@
     "@types/mocha": "*"
   },
   "scripts": {
-    "test": "mocha test/**/*.ts"
+    "test": "tsc && mocha test/**/*.ts"
   }
 }

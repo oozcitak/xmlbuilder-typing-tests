@@ -6,6 +6,6 @@
     "types": ["node", "mocha"],
     "outDir": "lib"
   },
-  "include": ["src"],
+  "include": ["src", "test/**/*"],
   "exclude": ["node_modules"]
 }
